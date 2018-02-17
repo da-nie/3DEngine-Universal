@@ -1,0 +1,58 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: 3DEngine - Win32 Release--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\WINDOWS\TEMP\RSP480.tmp" with contents
+[
+/nologo /MD /W3 /GX /O2 /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_MBCS" /D "_AFXDLL" /Fp"Release/3DEngine.pch" /YX /Fo"Release/" /Fd"Release/" /FD /c 
+"E:\CopyToHome\3DEngine-Universal\cengine_base.cpp"
+]
+Creating command line "cl.exe @C:\WINDOWS\TEMP\RSP480.tmp" 
+Creating temporary file "C:\WINDOWS\TEMP\RSP481.tmp" with contents
+[
+winmm.lib ddraw.lib /nologo /subsystem:windows /incremental:no /pdb:"Release/3DEngine.pdb" /machine:I386 /out:"Release/3DEngine.exe" 
+".\Release\ccontrol.obj"
+".\Release\cdecorator_cisector.obj"
+".\Release\cengine_base.obj"
+".\Release\cengine_bsp.obj"
+".\Release\cengine_gportal.obj"
+".\Release\cengine_sportal.obj"
+".\Release\cgraph.obj"
+".\Release\ciengine.obj"
+".\Release\cisector.obj"
+".\Release\ckeyboard.obj"
+".\Release\cmain.obj"
+".\Release\cmouse.obj"
+".\Release\common.obj"
+".\Release\cplayer.obj"
+".\Release\csimplybridge.obj"
+".\Release\csimplydoor.obj"
+".\Release\csimplyplatform.obj"
+".\Release\csimplysector.obj"
+".\Release\csimplyteleport.obj"
+".\Release\cswitchsector.obj"
+".\Release\ctexturefollow.obj"
+".\Release\cunit.obj"
+".\Release\cvideo.obj"
+".\Release\cwallmap.obj"
+".\Release\cwnd_main.obj"
+".\Release\localmath.obj"
+".\Release\main.obj"
+]
+Creating command line "link.exe @C:\WINDOWS\TEMP\RSP481.tmp"
+<h3>Output Window</h3>
+Compiling...
+cengine_base.cpp
+Linking...
+
+
+
+<h3>Results</h3>
+3DEngine.exe - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>
